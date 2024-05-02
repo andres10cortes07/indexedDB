@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Varela+Round&display=swap');
+
+*{
+    font-family: "Itim", cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.filaForms {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cont-form-clientes {
+    width: 45%;
+    background: #212121;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    height: min-content;
+}
+
+input, textarea {
+    padding: 5px 8px;
+    width: 300px;
+    margin: 15px 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+textarea {
+    max-width: 500px;
+    width: 100%;
+    height: 100px;
+}
+
+.contenido-form-cliente {
+    width: 100%;
+    display: flex;
+}
+
+.cont-form-clientes h2{
+    color: white;
+}
+
+.contenido-clientes {
+    width: 60%;
+}
+
+.contenido-clientes input{
+    background: #0D7377;
+}
+
+.contenido-clientes input::placeholder{
+    color: #eeeeee;
+}
+
+.cont-btn-enviar-cliente {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items:end;
+}
+
+.cont-btn-enviar-cliente button {
+    border-radius: 30px;
+    height: 125px;
+    width: 125px;
+    font-size: 18px;
+    background: #32E0C4;
+    border: none;
+}
+
+
+/* ------------------ */
+.cont-form-productos {
+    width: 45%;
+    background: #32E0C4;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    height: min-content;
+}
+
+.contenido-form-producto {
+    width: 100%;
+    display: flex;
+}
+
+.cont-form-productos h2{
+    color: #212121;
+}
+
+.contenido-productos {
+    width: 60%;
+}
+
+.contenido-productos input, textarea {
+    background: #212121;
+}
+
+.contenido-productos input::placeholder, textarea::placeholder{
+    color: #eeeeee;
+}
+
+.cont-btn-enviar-producto {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items:end;
+}
+
+.cont-btn-enviar-producto button {
+    border-radius: 30px;
+    height: 125px;
+    width: 125px;
+    font-size: 18px;
+    background: #0D7377;
+    border: none;
+    color: white;
+}
+
+.txt-error, .txt-error-productos  {
+    display: none;
+    border: #bc412b 2px solid;
+    margin-top: 15px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: #bc412b;
+}
+
+
+/* ------------------------------------------------- */
+
+.filaResultados {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.filaResultados {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cont-form-resultados-clientes {
+    width: 50%;
+    height: min-content;
+    background: #212121;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.cont-form-resultados-clientes h2 {
+    color: #eeeeee;
+}
+
+.cont-form-resultados-productos {
+    width: 40%;
+    height: min-content;
+    background: #32E0C4;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    text-align: center;
+}
+
+.contenido-form-resultados-producto{
+    color: #212121;
+    font-size: 20px;
+    width: 100%;
+}
+
+.contenido-form-resultados-cliente {
+    color: #eeeeee;
+    font-size: 20px;
+    width: 100%;
+}
+
+.cont-form-resultados-clientes, .cont-form-resultados-productos {
+    box-sizing: content-box;
+}
+
+.btn-editar, .btn-editar-producto {
+    background:#245c94;
+    border: #787878 1px solid;
+    padding: 2px 8px;
+    margin-right: 10px;
+    color: white;
+}
+
+.btn-eliminar, .btn-eliminar-producto {
+    background:#be3a23;
+    border: #444444 1px solid;
+    padding: 2px 8px;
+    margin-left: 10px;
+    color: white;
+}
