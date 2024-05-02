@@ -179,7 +179,6 @@ const mostrarProductos = (e)=>{
 
 const ingresarCliente = ()=>{
 
-    console.log("ingreso de cliente")
     const nombre = document.getElementById("nombreCli").value;
     const direccion = document.getElementById("direccionCli").value;
     const telefono = document.getElementById("telefonoCli").value;
@@ -194,7 +193,7 @@ const ingresarCliente = ()=>{
             telefono: telefono
         });
 
-        transaccionClientes.addEventListener("complete", mostrar);
+        transaccionClientes.addEventListener("complete", mostrar());
         document.getElementById("nombreCli").value = "";
         document.getElementById("direccionCli").value = "";
         document.getElementById("telefonoCli").value = "";
@@ -220,7 +219,7 @@ const ingresarProducto = ()=>{
             descripcion: descripcion
         });
 
-        transaccionProductos.addEventListener("complete", mostrar);
+        transaccionProductos.addEventListener("complete", mostrar());
         document.getElementById("nombrePro").value = "";
         document.getElementById("descPro").value = "";
     }
